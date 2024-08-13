@@ -1,0 +1,114 @@
+
+body{
+    margin: 80px;
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    
+    border: 1px solid #dbdada;
+    padding: 15px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+   
+}
+.marque{
+    text-decoration: line-through;
+    color: red;
+    
+}
+th {
+    background-color: #f4f4f4;
+}
+#marquer{
+    color: white;
+    font-weight: bolder;
+    background-color: mediumblue;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+#supprimer{
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    }
+ #ajoutButton{
+    width: 80px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgb(0, 255, 13);
+    border: none;
+    padding: 10px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    }
+
+    .d-none{
+        display: none;
+    }
+#deletAllCourses{
+    width: 150px;
+    height: 37px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    /* padding: 10px; */
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+#articlesAcheter{
+    width: 150px;
+    height: 37px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: teal;
+    border: none;
+    /* padding: 10px; */
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+
+#articlesNonAcheter{
+    width: 160px;
+    height: 37px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: mediumblue;
+    border: none;
+    /* padding: 10px; */
+    margin-bottom: 4px;
+    cursor: pointer;
+
+}
+
+#headerContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+

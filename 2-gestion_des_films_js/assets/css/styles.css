@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  /* h2 {
+    font-size: 20px;
+    text-align: center;
+  }  */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td img{
+    max-width: 100px;
+    height: auto;
+  }
+  th img{
+    max-width: 100px;
+    height: auto;
+  }
+.voirButton{
+border: none;
+background-color: blue;
+color: white;
+font-weight: bold;
+padding: 10px;
+margin-top: 2px;
+cursor: pointer;
+}
+
+.modifierButton{
+  border: none;
+  background-color: yellow;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+  }
+.supprimerButton{
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+/* formulaire styles */
+.formModal{
+background-color: black;
+color: white;
+height: 200vh;
+width: 100%;
+opacity: 0.9;
+position: absolute;
+top: 0%;
+left: 0%;
+}
+
+.buttonAjouter{
+  border: none;
+  background-color: rgb(243, 8, 243);
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.d-none{
+  display: none;
+}
+.formContainer {
+ position: relative;
+ top: 10%;
+ left: 30%;
+ transform: translate(-50px, -50px);
+ border: 1px solid green;
+ width: 512px;
+ min-height: 400px;
+ background-color: goldenrod;
+ padding: 20px;
+}
+.formContainer input{
+border: none;
+height: 40px;
+width: 500px;
+margin-bottom: 4px;
+padding-left: 10px;
+outline: none;
+background-color: white;
+font-size: 18px;
+color: rgb(138, 138, 125);
+}
+
+input[type="file" ]{
+display: block;
+align-content: center;
+margin-bottom: -13px;
+padding-right: 2px;
+}
+#submit{
+ margin-left: 25px;
+ width: 450px;
+
+}
+.cancel{
+  border: none;
+  background-color: rgb(149, 149, 235);
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+  font-size: 18px;
+  height: 40px;
+  cursor: pointer;
+  }
+.headerFormModal{
+  margin-top: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+#prevImage{
+  width: 512px;
+}
+#prevVideo{
+  width: 512px;
+ 
+}
+
+/* voir, detaille movie */
+
+.detaillMovie{
+background-color: white;
+height: 100vh;
+width: 100%;
+opacity: 1;
+position: absolute;
+top: 0%;
+left: 0%;
+
+}
+.detaillMovie_content{
+display: flex;
+gap: 20px; 
+}
+.detaillMovie_content_left {
+  position: relative;
+  top: 22%;
+  left: 12%;
+  transform: translate(-50px, -50px);
+  border: 1px solid green;
+  min-width: 212px;
+  height: 350px;
+  background-color: goldenrod;
+  padding: 20px;
+  
+ }
+ .detaillMovie_content_right {
+  position: relative;
+  top: 22%;
+  left: 12%;
+  transform: translate(-50px, -50px);
+  border: 1px solid green;
+  width: 780px;
+  height: 480px;
+  background-color: goldenrod;
+  
+ }
+ /* .detaillMovie_content_right h2{
+text-align: center;
+margin-top: -1px;
+font-size: 14px;
+
+ } */
+
+.headerdetaillMovie{
+  margin-top: 10px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#viewVideo{
+  width: 780px;
+  height: 480px;
+}
+#videotd{
+  width: 100px;
+  height: 50px;
+}
+
+/* delete */
+.deleteMovieModale{
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.contentDeleteModal{
+  position: relative;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50px, -50px);
+  border: 1px solid green;
+  border-radius: 8px;
+  width: 450px;
+  height: 300px;
+  background-color: goldenrod;
+  color: rgb(49, 6, 243);
+  font-size: 20px;
+  text-align: center;
+}
+#canceldetaillMovie{
+  border: none;
+  background-color: rgb(149, 149, 235);
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+  font-size: 18px;
+  height: 35px;
+  cursor: pointer;
+  }
+.contentDeleteModal .header{
+  text-align: center;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 12px;
+  }
+.contentDeleteModal .contente{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.contentDeleteModal .footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 10px;
+
+}
+.contentDeleteModal .image{
+    text-align: center;
+
+}
+
+/* serche */
+
+.search-container {
+  display: flex;
+  max-width: 1100px;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+select {
+  width: 150px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.inputSearch{
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+#searchButton {
+  border: none;
+  background-color: #007BFF;
+  font-weight: bold;
+  color: #fff;
+  height: 39px;
+  padding: 7px;
+  margin-right: 0px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.searchError{
+color: red;
+font-weight: bolder;
+margin-top: -20px;
+margin-bottom: -10px;
+}
+
+#movieNotFound{
+  text-align: center;
+}
+
+  

@@ -1,0 +1,87 @@
+body {
+    background-color: #fff;
+    /* opacity: 0.4; */
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.formModal {
+    border: 1px solid #aca8a8;
+    padding: 15px;
+    border-radius: 10px;
+    
+
+
+}
+
+h1 {
+    /* color: white; */
+}
+
+.formModal_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#cancel {
+
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.formContent {}
+
+input {
+    height: 30px;
+    width: 350px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #c7c3c3;
+    padding: 8px;
+    color: darkblue;
+
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+button {
+    color: white;
+    font-weight: bolder;
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 4px;
+}
+form{
+    border: 2px solid #c4c1c1;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+
+
+
+
